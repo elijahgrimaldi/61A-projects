@@ -1,7 +1,7 @@
 import tkinter
 window = tkinter.Tk()
 window.title("Miles to Km Converter")
-window.config(padx=20,pady=20)
+window.config(padx=20,pady=50)
 entry = tkinter.Entry(width=8)
 entry.grid(row=0,column=1)
 entry_label = tkinter.Label(text="Miles", font=("Arial", 18))
