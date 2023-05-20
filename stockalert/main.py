@@ -2,8 +2,8 @@ import requests
 from datetime import datetime, timedelta
 from twilio.rest import Client
 #############set up twilio SMS##############
-account_sid = 'AC1328a99e41bb958f92196c3f1178822d'
-auth_token = '5601ba5694eee16329689fc0f1c46508'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 #############get todays and yesterdays day###########
 todays_date = str(datetime.today())
@@ -14,9 +14,9 @@ yesterday = yesterdays_date.split(" ")[0]
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-NEWS_API_KEY = "a09f72ed65924a58a2cf6d67eb5e2eb7"
+NEWS_API_KEY = ""
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-STOCK_API_KEY = "K0V829IJOJNL6CPU"
+STOCK_API_KEY = ""
 ########API parameters##########
 stock_parameters = {
 
